@@ -187,6 +187,7 @@ margin: 20px 0;
   justify-content:space-between;
   align-items: center;
   padding: 80px 0;
+  flex-wrap: wrap;
   .services-box{
     width: 300px;
     height: 90px;
@@ -196,6 +197,7 @@ margin: 20px 0;
     align-items: center;
     justify-content: center;
     padding: 0 40px;
+    margin: 10px;
     svg{
     margin: 0 10px;
   
@@ -233,8 +235,8 @@ margin: 20px 0;
   padding: 50px 0;
   display: flex;
   flex-direction: column;
-  overflow:scroll;
-  
+  overflow:hidden;
+
   
   
   .question-btn-box{
@@ -255,7 +257,7 @@ margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    
 
     .question-box{
       width: 100%;
@@ -263,7 +265,7 @@ margin: 20px 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      
+     margin:50px 20px;
       
       h1{
         font-size: 40px;
@@ -272,10 +274,12 @@ margin: 20px 0;
       }
       .questions{
         width: 100%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content:space-between;
         flex-wrap: wrap;
+        
         
       }
     
@@ -314,6 +318,213 @@ margin: 20px 0;
 
 }
 
+
+
+
+
+
+.service-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 0 100px 0;
+.service-box{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 15px;
+  
+  svg,h1,p{
+    margin: 10px 0;
+  }
+}
+}
+
+
+
+
+
+
+
+.table-container{
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  hr{
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, #93EA21 0%, rgba(147, 234, 33, 0.596437) 36.26%, rgba(147, 234, 33, 0) 100%);
+      border: none;
+      outline: none;
+  }
+
+  .list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    li{
+      list-style: none;
+      color: gray;    
+    }
+  }
+
+
+table{
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+tr{
+  line-height: 30px;
+}
+}
+}
+
+
+
+// main-containers tugashi
+}
+
+// /footer content
+
+footer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .footer-content-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+    font-size: 20px;
+    h1,hr,p{
+      margin: 10px 0;
+    }
+.line{
+width: 100%;
+display:flex;
+
+hr:nth-child(1){
+  width: 50%;
+  height: 1px;
+  background: linear-gradient(90deg, #93ea2100 0%, rgba(147, 234, 33, 0.596437) 36.26%, rgb(147, 234, 33) 100%);
+  border: none;
+  outline: none;
+
+}
+
+hr:nth-child(2){
+  width: 50%;
+  height: 1px;
+  background: linear-gradient(90deg, #93EA21 0%, rgba(147, 234, 33, 0.596437) 36.26%, rgba(147, 234, 33, 0) 100%);
+  border: none;
+  outline: none;
+
+}
+
+}
+
+  }
+
+
+  .slider-container{
+    width:100%;
+    height: 100%;
+    position: relative;
+    svg,h1,p,.icons-btn-box{
+      margin: 20px 0;
+    }
+    svg{
+      position: relative;
+    }
+    h1{
+      position: absolute;
+      top: 50px;
+      font-size: 50px;
+      left: 100px;
+    }
+
+    p{
+      position: absolute;
+      top: 120px;
+      font-size: 20px;
+      left: 100px;
+      text-align: center;
+      padding: 0 100px 0 0;
+    }
+
+    .icons-btn-box{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 100px 0;
+      svg{
+        margin: 0 10px;
+      }
+
+    }
+
+  }
+
+
+.form-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+.img-box{
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  position: relative;
+  svg:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  svg:nth-child(2){
+
+z-index: 100;
+top: 100px;
+left: 0;
+width: 100%;
+
+  }
+}
+
+
+
+
+.form-box{
+  width: 50%;
+  height: 100%;
+background-color: blue;
+}
+
+}
 
 
 
